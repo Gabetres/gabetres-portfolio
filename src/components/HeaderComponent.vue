@@ -1,7 +1,7 @@
 <template>
   <header>
     <h2>Gabe<strong>tres</strong></h2>
-    <font-awesome-icon icon="fa-solid fa-moon" />
+    <img src="@/assets/images/moon-darkmode.svg" alt="">
   </header>
 </template>
 
@@ -14,12 +14,12 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  height: 60px;
   z-index: 1000;
   gap: 20px;
 
   color: #000;
   background: #efefef;
-  padding: 10px;
   box-shadow: 0px 0px 15px #00000028;
 
   h2 {
@@ -28,17 +28,12 @@ header {
     strong {
       color: #e01e37;
       font-weight: 600;
+      font-size: 25px;
     }
   }
 
-  .fa-moon {
-    color: black;
-    font-weight: 300;
-  }
-
-  h2,
-  .fa-moon {
-    font-size: 25px;
+  img {
+    width: 25px;
   }
 }
 
@@ -46,8 +41,6 @@ header {
   header {
     align-items: flex-start;
     align-items: center;
-
-
   }
 }
 
@@ -55,11 +48,6 @@ header {
   header {
     align-items: flex-start;
     align-items: center;
-
-    h2,
-    .fa-moon {
-      font-size: 15px;
-    }
   }
 }
 </style>
