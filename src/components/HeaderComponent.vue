@@ -24,6 +24,8 @@ header {
 
   h2 {
     font-weight: 600;
+    position: relative;
+    right: 95px;
 
     strong {
       color: #e01e37;
@@ -34,13 +36,24 @@ header {
 
   img {
     width: 25px;
+    position: relative;
+    left: 25px;
   }
 }
 
 @media (max-width: 768px) {
   header {
+    position: unset;
     align-items: flex-start;
     align-items: center;
+  }
+
+  h2{
+    right: 0;
+  }
+
+  img{
+    left: 0;
   }
 }
 
