@@ -9,9 +9,9 @@
           </h1>
         </div>
         <p class="description">
-          Apaixonado por tecnologia, especializado em <span>criar soluções</span> robustas e escaláveis.
-          Com uma forte compreensão de <span>arquitetura de software</span>, meu objetivo é otimizar
-          o desempenho e garantir a segurança dos sistemas backend. Sempre buscando <span>aprender</span>
+          Apaixonado por tecnologia, especializado em <strong>criar soluções</strong> robustas e escaláveis.
+          Com uma forte compreensão de <strong>arquitetura de software</strong>, meu objetivo é otimizar
+          o desempenho e garantir a segurança dos sistemas backend. Sempre buscando <strong>aprender</strong>
           e me atualizar com as últimas tendências do desenvolvimento.
         </p>
       </div>
@@ -80,11 +80,15 @@
   color: #232323;
   font-weight: 300;
   font-size: 1rem;
+
+  strong {
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 1023px) {
-  
-  .profile-content{
+
+  .profile-content {
     flex-direction: column-reverse;
   }
 
