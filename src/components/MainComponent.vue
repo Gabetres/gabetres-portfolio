@@ -30,47 +30,52 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem;
-  position: relative;
-  top: 5rem;
+  padding: 5rem 2rem;
+  margin: auto;
+  
 }
 
 .profile-content {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 .profile-photo {
-  width: 100%;
   width: 23rem;
-  position: relative;
-  right: 1rem;
 }
 
 .profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 7rem;
   max-width: 40rem;
-  position: relative;
-  top: 1rem;
-  left: 1rem;
 }
 
 .introduction {
-  position: relative;
-  top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  flex-wrap: nowrap;
+  height: 5rem;
+  line-height: 37px;
+  white-space: nowrap;
 
   .name {
+    margin: 0;
     font-weight: 600;
     font-size: 1.5rem;
     color: #000;
   }
 
   h1 {
+    margin: 0;
     font-weight: 700;
     color: #000000;
     font-size: 3.5rem;
-    position: relative;
-    bottom: 4.25rem;
 
     span {
       color: #e01e38;
@@ -91,42 +96,6 @@
 
 @media (max-width: 1023px) {
 
-  .profile-content {
-    flex-direction: column-reverse;
-  }
-
-  .introduction {
-    /* top: 7rem; */
-    top: unset;
-    bottom: 11rem;
-    text-align: center;
-
-    .name {
-      font-size: 1.5rem;
-      color: #000;
-    }
-
-    h1 {
-      font-size: 2.3rem;
-      bottom: 3.10rem;
-    }
-  }
-
-  .description {
-    text-align: center;
-    font-size: 0.85rem;
-    width: 50vw;
-    position: relative;
-    bottom: 10rem;
-  }
-
-  .profile-photo {
-    width: 100%;
-    width: 15rem;
-    position: relative;
-    right: unset;
-    top: unset;
-    bottom: 4.5rem;
-  }
+ 
 }
 </style>
