@@ -32,7 +32,6 @@
   justify-content: center;
   padding: 5rem 2rem;
   margin: auto;
-  
 }
 
 .profile-content {
@@ -44,6 +43,7 @@
 
 .profile-photo {
   width: 23rem;
+  margin: auto;
 }
 
 .profile-details {
@@ -95,7 +95,31 @@
 }
 
 @media (max-width: 1023px) {
+  .profile-section {
+    padding: 0rem 2rem;
+  }
 
- 
+  .profile-content {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .profile-details {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .introduction {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .description{
+    text-align: center;
+  }
+}
+
+@media (max-width:768px) {
+  
 }
 </style>
