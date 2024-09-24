@@ -9,10 +9,13 @@
           </h1>
         </div>
         <p class="description">
-          Apaixonado por tecnologia, especializado em <strong>criar soluções</strong> robustas e escaláveis.
-          Com uma forte compreensão de <strong>arquitetura de software</strong>, meu objetivo é otimizar
-          o desempenho e garantir a segurança dos sistemas backend. Sempre buscando <strong>aprender</strong>
-          e me atualizar com as últimas tendências do desenvolvimento.
+          Programador backend especializado em desenvolvimento de <strong>soluções eficientes e escaláveis</strong>.
+          Tenho ampla
+          experiência com tecnologias como <strong>Node.JS, PHP, GoLang, Laravel, Git, Docker e ambientes Linux</strong>
+          utilizando <strong>WSL</strong>. Estou
+          sempre comprometido com as <strong>melhores práticas</strong> de desenvolvimento, oferecendo <strong>código de
+            qualidade</strong>, otimização de
+          processos e integração contínua.
         </p>
       </div>
       <div>
