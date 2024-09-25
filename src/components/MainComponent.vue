@@ -120,7 +120,7 @@
 
 @media (max-width: 640px) {
   .profile-section{
-    padding: 0 1rem;
+    padding: 2 1rem;
     max-width: 30rem;
   }
 
