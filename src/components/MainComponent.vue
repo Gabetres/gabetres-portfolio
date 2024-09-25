@@ -17,6 +17,15 @@
             qualidade</strong>, otimização de
           processos e integração contínua.
         </p>
+        <div class="contact-buttons">
+          <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/gabriel-tres-037140146/" target="_blank" class="btn"><img
+                src="@/assets/images/linkedin-link.svg" alt="linkedin"></a>
+            <a href="https://github.com/Gabetres" target="_blank" class="btn"><img src="@/assets/images/github-link.svg"
+                alt="github"></a>
+          </div>
+          <a href="https://wa.me/5192256750" target="_blank" class="btn contact"><span>Entre em contato</span></a>
+        </div>
       </div>
       <div>
         <img src="@/assets/images/profile-photo.png" alt="Gabriel" class="profile-photo" />
@@ -93,6 +102,57 @@
   }
 }
 
+/*Styles Button*/
+
+.contact-buttons {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+
+  .social-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .btn {
+    transition: 250ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #e01e38;
+
+    img {
+      width: 1.5rem;
+    }
+  }
+
+  .btn:hover {
+    transform: scale(1.15);
+  }
+
+
+
+  .contact {
+    text-decoration: none;
+    width: 250px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .contact:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+
 @media (max-width: 1023px) {
   .profile-section {
     padding: 2rem 5rem;
@@ -116,10 +176,46 @@
   .description {
     text-align: center;
   }
+
+  .contact-buttons {
+    height: 6rem;
+    width: 30rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+
+    .social-buttons {
+      width: 100%;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .btn:hover{
+      transform: scale(1.05);
+    }
+
+    .contact {
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      padding: 0.75rem 0;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .contact:hover{
+      transform: scale(1.03);
+    }
+
+  }
 }
 
 @media (max-width: 640px) {
-  .profile-section{
+  .profile-section {
     padding: 2 1rem;
     max-width: 30rem;
   }
@@ -127,6 +223,7 @@
   .introduction {
     height: 2.8rem;
     line-height: 1.5rem;
+
     h1 {
       font-size: 1.8rem;
     }
