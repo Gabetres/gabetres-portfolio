@@ -43,7 +43,6 @@
 
 .profile-photo {
   width: 23rem;
-  margin: auto;
 }
 
 .profile-details {
@@ -96,7 +95,7 @@
 
 @media (max-width: 1023px) {
   .profile-section {
-    padding: 0rem 2rem;
+    padding: 2rem 5rem;
   }
 
   .profile-content {
@@ -114,12 +113,35 @@
     margin: 0 auto;
   }
 
-  .description{
+  .description {
     text-align: center;
   }
 }
 
-@media (max-width:768px) {
-  
+@media (max-width: 640px) {
+  .profile-section{
+    padding: 0 1rem;
+    max-width: 30rem;
+  }
+
+  .introduction {
+    height: 2.8rem;
+    line-height: 1.5rem;
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .name {
+      font-size: 1.2rem;
+    }
+  }
+
+  .description {
+    font-size: 0.75rem;
+  }
+
+  .profile-photo {
+    width: 13rem;
+  }
 }
 </style>
