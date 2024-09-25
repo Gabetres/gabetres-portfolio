@@ -151,6 +151,19 @@
   }
 }
 
+.dark{
+  .introduction{
+    .name{
+      color: #fff;
+    }
+    h1{
+      color: #fff;
+    }
+  }
+  .description{
+    color: #c4c4c4;
+  }
+}
 
 
 @media (max-width: 1023px) {
@@ -184,7 +197,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    /* align-items: center; */
 
     .social-buttons {
       width: 100%;
@@ -216,7 +228,7 @@
 
 @media (max-width: 640px) {
   .profile-section {
-    padding: 2 1rem;
+    padding: 2rem 2rem;
     max-width: 30rem;
   }
 
@@ -235,6 +247,11 @@
 
   .description {
     font-size: 0.75rem;
+  }
+
+  .contact-buttons{
+    margin-top: 1.5rem;
+    width: 15rem;
   }
 
   .profile-photo {
