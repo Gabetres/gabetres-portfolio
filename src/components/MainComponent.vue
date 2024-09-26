@@ -11,7 +11,7 @@
         <p class="description">
           Programador backend especializado em desenvolvimento de <strong>soluções eficientes e escaláveis</strong>.
           Tenho ampla
-          experiência com tecnologias como <strong>Node.JS, PHP, GoLang, Laravel, Git, Docker e ambientes Linux</strong>
+          experiência com tecnologias como <strong>Node, PHP, GoLang, Laravel, Git, Docker e ambientes Linux</strong>
           utilizando <strong>WSL</strong>. Estou
           sempre comprometido com as <strong>melhores práticas</strong> de desenvolvimento, oferecendo <strong>código de
             qualidade</strong>, otimização de
