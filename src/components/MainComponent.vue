@@ -102,8 +102,6 @@
   }
 }
 
-/*Styles Button*/
-
 .contact-buttons {
   width: 100%;
   height: 1rem;
@@ -151,16 +149,18 @@
   }
 }
 
-.dark{
-  .introduction{
-    .name{
+.dark {
+  .introduction {
+    .name {
       color: #fff;
     }
-    h1{
+
+    h1 {
       color: #fff;
     }
   }
-  .description{
+
+  .description {
     color: #c4c4c4;
   }
 }
@@ -249,13 +249,16 @@
     font-size: 0.75rem;
   }
 
-  .contact-buttons{
+  .contact-buttons {
     margin-top: 1.5rem;
     width: 15rem;
   }
 
+
+
   .profile-photo {
     width: 13rem;
+    margin-bottom: 1rem;
   }
 }
 </style>

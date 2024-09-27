@@ -48,11 +48,10 @@ header {
   }
 
   img {
-    width: 2.5rem;
+    width: 2rem;
+    cursor: pointer;
   }
 }
-
-/* dark mode config */
 
 .dark {
   header {
