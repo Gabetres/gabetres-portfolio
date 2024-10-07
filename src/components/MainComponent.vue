@@ -19,7 +19,7 @@
         </p>
         <div class="contact-buttons">
           <div class="social-buttons">
-            <a href="https://www.linkedin.com/in/gabriel-tres-037140146/" target="_blank" class="btn"><img
+            <a href="https://www.linkedin.com/in/gabrieltres/" target="_blank" class="btn"><img
                 src="@/assets/images/linkedin-link.svg" alt="linkedin"></a>
             <a href="https://github.com/Gabetres" target="_blank" class="btn"><img src="@/assets/images/github-link.svg"
                 alt="github"></a>
