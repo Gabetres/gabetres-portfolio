@@ -7,7 +7,11 @@
 
 <script>
 export default {
-    name: 'NotFoundView'
+    name: 'NotFoundView',
+    beforeRouteEnter(to, from, next) {
+        document.title = '404 - Page Not Found';
+        next();
+    }
 }
 </script>
 
@@ -15,5 +19,11 @@ export default {
 .not-found {
     text-align: center;
     margin-top: 50px;
+}
+
+.dark{
+    .not-found {
+    color: #fff;
+}
 }
 </style>
